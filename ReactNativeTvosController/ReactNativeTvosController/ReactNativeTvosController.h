@@ -6,11 +6,8 @@
 //  Copyright © 2017年 yangchen. All rights reserved.
 //
 
-//#import <React/RCTBridgeModule.h>
-//#import <React/RCTEventEmitter.h>
-
-#import "RCTBridgeModule.h"
-#import "RCTEventEmitter.h"
+#import <React/RCTBridgeModule.h>
+#import <React/RCTEventEmitter.h>
 
 @interface ReactNativeTvosController : RCTEventEmitter <RCTBridgeModule>
 
